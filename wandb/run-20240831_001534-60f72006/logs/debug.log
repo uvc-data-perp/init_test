@@ -1,0 +1,34 @@
+2024-08-31 00:15:34,972 INFO    MainThread:30308 [wandb_setup.py:_flush():77] Current SDK version is 0.17.8
+2024-08-31 00:15:34,972 INFO    MainThread:30308 [wandb_setup.py:_flush():77] Configure stats pid to 30308
+2024-08-31 00:15:34,972 INFO    MainThread:30308 [wandb_setup.py:_flush():77] Loading settings from C:\Users\UVC\.config\wandb\settings
+2024-08-31 00:15:34,972 INFO    MainThread:30308 [wandb_setup.py:_flush():77] Loading settings from C:\Users\UVC\Desktop\ai\wandb\settings
+2024-08-31 00:15:34,972 INFO    MainThread:30308 [wandb_setup.py:_flush():77] Loading settings from environment variables: {}
+2024-08-31 00:15:34,972 INFO    MainThread:30308 [wandb_setup.py:_flush():77] Applying setup settings: {'_disable_service': False}
+2024-08-31 00:15:34,973 INFO    MainThread:30308 [wandb_setup.py:_flush():77] Inferring run settings from compute environment: {'program_relpath': 'wandb_iris.py', 'program_abspath': 'C:\\Users\\UVC\\Desktop\\ai\\wandb_iris.py', 'program': 'C:\\Users\\UVC\\Desktop\\ai\\wandb_iris.py'}
+2024-08-31 00:15:34,973 INFO    MainThread:30308 [wandb_setup.py:_flush():77] Applying login settings: {}
+2024-08-31 00:15:34,973 INFO    MainThread:30308 [wandb_init.py:_log_setup():524] Logging user logs to C:\Users\UVC\Desktop\ai\wandb\run-20240831_001534-60f72006\logs\debug.log
+2024-08-31 00:15:34,973 INFO    MainThread:30308 [wandb_init.py:_log_setup():525] Logging internal logs to C:\Users\UVC\Desktop\ai\wandb\run-20240831_001534-60f72006\logs\debug-internal.log
+2024-08-31 00:15:34,974 INFO    MainThread:30308 [wandb_init.py:init():607] calling init triggers
+2024-08-31 00:15:34,974 INFO    MainThread:30308 [wandb_init.py:init():614] wandb.init called with sweep_config: {}
+config: {}
+2024-08-31 00:15:34,974 INFO    MainThread:30308 [wandb_init.py:init():657] starting backend
+2024-08-31 00:15:34,974 INFO    MainThread:30308 [wandb_init.py:init():661] setting up manager
+2024-08-31 00:15:34,978 INFO    MainThread:30308 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-08-31 00:15:34,981 INFO    MainThread:30308 [wandb_init.py:init():669] backend started and connected
+2024-08-31 00:15:34,986 INFO    MainThread:30308 [wandb_init.py:init():767] updated telemetry
+2024-08-31 00:15:34,987 INFO    MainThread:30308 [wandb_init.py:init():800] communicating run to backend with 90.0 second timeout
+2024-08-31 00:15:35,675 INFO    MainThread:30308 [wandb_init.py:init():851] starting run threads in backend
+2024-08-31 00:15:43,943 INFO    MainThread:30308 [wandb_run.py:_console_start():2463] atexit reg
+2024-08-31 00:15:43,943 INFO    MainThread:30308 [wandb_run.py:_redirect():2309] redirect: wrap_raw
+2024-08-31 00:15:43,943 INFO    MainThread:30308 [wandb_run.py:_redirect():2374] Wrapping output streams.
+2024-08-31 00:15:43,943 INFO    MainThread:30308 [wandb_run.py:_redirect():2399] Redirects installed.
+2024-08-31 00:15:43,958 INFO    MainThread:30308 [wandb_init.py:init():894] run started, returning control to user process
+2024-08-31 00:15:49,222 INFO    MainThread:30308 [wandb_run.py:_finish():2160] finishing run shyk31971-k/data-eda-preprocessing/60f72006
+2024-08-31 00:15:49,222 INFO    MainThread:30308 [wandb_run.py:_atexit_cleanup():2424] got exitcode: 0
+2024-08-31 00:15:49,222 INFO    MainThread:30308 [wandb_run.py:_restore():2406] restore
+2024-08-31 00:15:49,222 INFO    MainThread:30308 [wandb_run.py:_restore():2412] restore done
+2024-08-31 00:15:49,222 INFO    MainThread:30308 [wandb_run.py:_on_finish():2677] communicating current version
+2024-08-31 00:15:53,809 INFO    MainThread:30308 [wandb_run.py:_on_finish():2686] got version response 
+2024-08-31 00:15:57,271 INFO    MainThread:30308 [wandb_run.py:_footer_history_summary_info():4078] rendering history
+2024-08-31 00:15:57,271 INFO    MainThread:30308 [wandb_run.py:_footer_history_summary_info():4110] rendering summary
+2024-08-31 00:15:57,279 INFO    MainThread:30308 [wandb_run.py:_footer_sync_info():4037] logging synced files

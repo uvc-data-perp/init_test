@@ -1,0 +1,5 @@
+No_Shot,Machine_Cycle_Time,Cycle_Time,Barrel_Temp_Z1,Barrel_Temp_Z2,Barrel_Temp_Z3,Barrel_Temp_Z4,Hopper_Temp,Injection_Pressure_Real_Time,Screw_Position,Injection_Peak_Press,Max_Injection_Rate,Screw_Velocity,VP_Time,VP_Position,Weighing_Start_Position,VP_Press,Plasticizing_Time,Plasticizing_Start_Position,Plasticizing_End_Position,Plasticizing_RPM,Minimum_Cushion,Cooling_Time,Back_Flow,Decompression_Time,_ID
+0,16.54,16.52,210.2,200.7,193.5,187.3,40.1,1.23,6.02,1211.65,78.37,20.6,2,8.14,10.51,1062,4.74,10.46,63.11,28.27,6.02,8,49.03,0.32,0
+1,16.56,16.54,210.2,200.8,193.5,187.2,40.2,1.24,6.02,1211.65,78.37,20.6,2,8.14,10.51,1062,4.81,10.49,63.11,28.27,6.02,8,49.03,0.32,1
+2,16.58,16.56,210.1,200.7,193.5,187.2,40.2,1.26,6.02,1209.16,78.32,35.38,2,8.12,10.54,1101.41,4.8,10.53,63.11,28.27,6.02,8,49.03,0.32,2
+3,16.62,16.58,210.1,200.6,193.5,187.2,40.2,1.3,6.28,1228.24,78.19,36.35,2,8.12,10.79,1092.55,4.84,10.78,63.11,28.27,6.28,8,49.03,0.33,3

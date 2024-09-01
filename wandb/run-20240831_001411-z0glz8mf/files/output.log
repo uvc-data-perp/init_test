@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\UVC\Desktop\ai\wandb_iris.py", line 16, in <module>
+    numeric_data = data.select_dtypes(include=[np.number])
+                                               ^^
+NameError: name 'np' is not defined

@@ -1,0 +1,39 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.11.7",
+    "heartbeatAt": "2024-08-30T15:15:35.692477",
+    "startedAt": "2024-08-30T15:15:34.957980",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\UVC\\Desktop\\ai\\wandb_iris.py",
+    "codePathLocal": "wandb_iris.py",
+    "codePath": "wandb_iris.py",
+    "host": "LAPTOP-EH048JBC",
+    "username": "UVC",
+    "executable": "C:\\ProgramData\\anaconda3\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1209.0,
+        "min": 0.0,
+        "max": 2419.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1209.0,
+            "min": 0.0,
+            "max": 2419.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 220.6770477294922,
+            "used": 166.19773483276367
+        }
+    },
+    "memory": {
+        "total": 15.729835510253906
+    }
+}
