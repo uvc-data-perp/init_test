@@ -51,3 +51,20 @@ for column in numeric_data.columns:
     plt.title(f"Distribution of {column}")
     wandb.log({f"{column}_distribution": wandb.Image(plt)})
 wandb.finish()
+
+####
+# 상관관계 분석 및 시각화
+corr = numeric_data.corr()
+plt.figure(figsize=(10,8))
+sns.heatmap(corr, annot=True, cmap='coolwarm')
+plt.title("Feature Correlation Heatmap")
+wandb.log({"correlation_heatmap": wandb.Image(plt)})
+
+# 공분산 행렬 계산 및 로깅
+cov = numeric_data.cov()
+wandb.log({"covariance_matrix": wandb.Table(dataframe=cov)})
+
+# 산점도 행렬
+plt.figure(figsize=(12,10))
+sns.pairplot(data, hue='class')
+wandb.log({"pairplot": wandb.Image(plt)})

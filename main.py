@@ -22,6 +22,7 @@ async def get_profile_html():
         profile = ProfileReport(df, explorative=True)
         profile.to_file("output3.html")
         # HTML을 문자열로 생성
+        
         html_string = profile.to_html()
         
         return HTMLResponse(content=html_string, status_code=200)
