@@ -19,13 +19,15 @@ app.add_middleware(
 async def get_profile_html():
     try:
         df = pd.read_csv('InjectionMolding_Raw_Data.csv')
-        profile = ProfileReport(df, explorative=True)
+        profile = df.profile_report(vars={"num": {"low_categorical_threshold": 0}})
+        # profile = ProfileReport(df, explorative=True)
         profile.to_file("output3.html")
         # HTML을 문자열로 생성
         
         html_string = profile.to_html()
         
         return HTMLResponse(content=html_string, status_code=200)
+        
     except Exception as e:
         return HTMLResponse(content=f"<h1>Error</h1><p>{str(e)}</p>", status_code=500)
 

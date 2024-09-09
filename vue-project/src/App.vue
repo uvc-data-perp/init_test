@@ -34,10 +34,14 @@ onMounted(fetchProfileHtml)
 </style> -->
 
 <template>
-  <router-view></router-view>
+  <div id="app">
+    <NavBar />
+    <router-view></router-view>
+  </div>
 </template>
 
 <script setup>
+import NavBar from './components/Navbars/NavBar.vue'
 // 필요한 경우 여기에 스크립트를 추가하세요
 </script>
 
